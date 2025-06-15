@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  font-family: "Lora", serif;
+}
+
+canvas{ 
+  background:url(/public/erika-m-e74N4gbjQwE-unsplash.jpg);
+  background-size: cover;
+}
+body {
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  color: white;
+  opacity: 0.8;
+}
