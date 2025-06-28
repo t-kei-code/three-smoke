@@ -15,7 +15,7 @@ function init() {
   renderer.setPixelRatio(window.devicePixelRatio);
 
   const textureLoader = new THREE.TextureLoader();
-  const bg = textureLoader.load("public/smoke.png");
+  const bg = textureLoader.load("/smoke.png");
   const geometry = new THREE.PlaneGeometry(1, 1);
   const material = new THREE.MeshBasicMaterial({
     map: bg,
